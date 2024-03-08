@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(17, 102, 132);
+    
+}
+.avik{
+    display: flex;
+    justify-content: center;
+    
+}
+.php{
+    color: rosybrown;
+    background-color: black;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}

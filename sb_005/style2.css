@@ -1,0 +1,52 @@
+body{
+    font-family: cursive;
+    background-color: rgb(151, 223, 151);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(90, 247, 124); */
+    padding: 24px;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.container input[type="text"]{
+
+    display: flex;
+    width: 300px;
+    height: 40px;
+    border: 2px solid black;
+    padding: 10px;
+    /* justify-content: center; */
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.container input[type="number"]{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    /* justify-content: center; */
+    margin: 10px;
+
+}
+.container button{
+    
+    display: inline;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:  rgb(29, 3, 29);
+    color: white;
+    font-size: 15px;
+    width: 20%;
+    height: 30px;
+}
+/* .avik{
+    background-color: aqua;
+} */
