@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: rosybrown;
+}
+.avik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.avik1 input[type="number"]{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    border: 2px solid black;
+    padding: 10px;
+    /* justify-content: center; */
+    margin: 10px;
+    border-radius: 5px;
+}
+.avik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px; 
+    
+}

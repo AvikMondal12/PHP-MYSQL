@@ -1,0 +1,3 @@
+write a program to create a chase board in php using for loop .....
+write a program to calculate eletricity bill in php condition 1.1st 50 units-rupies 3.5/unit 2.2nd is 100 unitis rup.4 3.next 100 unit 4.20/unit and last avobe 250 units as rs 6.50/unit
+write a php script to find out the sum of the indivutial digits.

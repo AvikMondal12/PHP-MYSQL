@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-   
+   <div class="phpcont">
     <h1>
         welcom to my php page
     </h1>
@@ -52,8 +53,20 @@ echo"<br>";
     echo "This is the frist number:".$num4;
     echo"<br>";
     echo "This is the second number:".$num5;
-    ?>
 
+    echo "<br>";
+
+    $num7=$_POST['number6'];
+    $num8=$_POST['number7'];
+    $temp=1;
+    for($i=1;$i<=$num8;$i++){
+        $temp=$num7*$i;
+
+        echo $num7." * ".$i ." = ".$temp;
+        echo "<br>";
+    }
+    ?>
+</div>
     
 </body>
 </html>
