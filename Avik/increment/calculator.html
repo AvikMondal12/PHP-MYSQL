@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(9, 95, 123);
+    }
+    .conatiner{
+        
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin: 15px
+        
+    
+    }
+    input,textarea{
+        width: 400px;
+        height: 50px;
+        border: 2.5px solid black;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 20px;
+        background-color: rgb(253, 253, 119);
+        color:  black;
+    }
+    select,option{
+        width: 200px;
+        height: 30px;
+        text-align: center;
+        font-family:monospace;
+        font-size: 17px;
+        background-color: rgb(237, 90, 237);
+        border-radius: 10px;
+        border: 2px solid rgb(157, 210, 53);
+        cursor: pointer;
+
+    }
+    button{
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        font-family:monospace;
+        font-size: 17px;
+        background-color: rgb(42, 242, 19);
+        border-radius: 10px;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: rgb(249, 72, 72);
+        border: 2px solid rgb(2, 52, 15);
+        font-weight: bold;
+    }
+    
+</style>
+
+<body>
+    <form action="calculator.php" method="post">
+        <div class="conatiner">
+            <input type="number" name="number1" placeholder="Enter the frist number">
+        </div>
+        <div class="conatiner">
+            <input type="number" name="number2" placeholder="Enter the second number">
+        </div>
+
+        <div class="conatiner">
+            <select name="operator" id="operator">
+                <option value="addition">Addition[+]</option>
+                <option value="substraction">Substraction[-]</option>
+                <option value="multiplication">Multiplicaltion[*]</option>
+                <option value="division">Division[/]</option>
+            </select>
+        </div>
+        <div class="conatiner">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
